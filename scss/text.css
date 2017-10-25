@@ -1,3 +1,4 @@
+@import url("http://fonts.googleapis.com/earlyaccess/notosanstc.css");
 * {
   margin: 0px;
   padding: 0px;
@@ -7,49 +8,129 @@
 html,
 body {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  font-family: 'Noto Sans TC', sans-serif; }
 
 .header {
   background-color: #212121; }
 
 nav {
-  width: 100%;
-  height: 100px;
+  max-width: 1280px;
+  height: 48px;
+  margin: 0px auto;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 0px 80px; }
+  padding: 32px 0px; }
   nav img {
     width: 40px;
     height: 40px;
-    margin: 25px 15px; }
+    margin-right: 20px; }
   nav p {
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.8);
     letter-spacing: .1em;
-    margin: 32px 0px; }
+    top: 75%;
+    transform: translateY(-50%); }
 
 .sec_box {
   width: 100%;
-  height: 500px;
   display: flex;
   flex-direction: column; }
-  .sec_box .block_up p {
-    width: 400px;
-    font-size: 1.5rem;
-    color: rgba(255, 255, 255, 0.8); }
-  .sec_box .block_up .block_up_grid {
-    border-bottom: 1.5px solid rgba(255, 255, 255, 0.8);
-    width: 150px;
-    letter-spacing: .4px; }
-    .sec_box .block_up .block_up_grid:hover {
-      padding-bottom: 2px;
-      animation: all .8s; }
-    .sec_box .block_up .block_up_grid a {
+  .sec_box .block_up {
+    width: 1192px;
+    margin: 50px auto 0px; }
+    .sec_box .block_up p {
+      width: 230px;
+      font-size: 1em;
+      color: rgba(255, 255, 255, 0.8);
+      margin: 0px 0px 12px; }
+    .sec_box .block_up .block_up_grid {
+      border-bottom: 1.5px solid rgba(255, 255, 255, 0.8);
+      width: 110px;
+      letter-spacing: .4px; }
+      .sec_box .block_up .block_up_grid:hover {
+        padding-bottom: 2px;
+        transition: all .05s; }
+      .sec_box .block_up .block_up_grid a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: .1rem; }
+  .sec_box .block_down {
+    width: 1192px;
+    height: 588px;
+    display: flex;
+    text-decoration: none;
+    margin: 50px auto 20px; }
+    .sec_box .block_down .a_box1 {
+      width: 32%;
+      height: 588px;
       text-decoration: none;
-      color: rgba(255, 255, 255, 0.8); }
-  .sec_box .block_down .a_box2 .grid_down img {
-    width: 50px;
-    height: 50px; }
+      margin: 0px auto;
+      padding: 20px;
+      background-color: #3C3C3C;
+      box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24); }
+      .sec_box .block_down .a_box1 h3 {
+        width: 70%;
+        font-size: 1.4em;
+        letter-spacing: .2px;
+        color: rgba(255, 255, 255, 0.8); }
+      .sec_box .block_down .a_box1 p {
+        margin: 12px 0 0;
+        font-size: 1.2em;
+        color: rgba(255, 255, 255, 0.8); }
+      .sec_box .block_down .a_box1 .block_down_grid {
+        position: absolute;
+        bottom: 20px;
+        color: rgba(255, 255, 255, 0.8);
+        border-bottom: 1.5px solid rgba(255, 255, 255, 0.8);
+        width: 148px;
+        letter-spacing: .4px; }
+        .sec_box .block_down .a_box1 .block_down_grid:hover {
+          padding-bottom: 2px;
+          transition: all .05s; }
+    .sec_box .block_down .a_box2 {
+      width: 32%;
+      height: 588px;
+      text-decoration: none;
+      flex-direction: column;
+      margin: 0px auto;
+      padding-top: 12px;
+      background: #ffffff;
+      text-decoration: none; }
+      .sec_box .block_down .a_box2 .grid_up h3 {
+        color: black;
+        font-weight: 300; }
+      .sec_box .block_down .a_box2 .grid_up p {
+        color: black;
+        font-weight: 300; }
+      .sec_box .block_down .a_box2 .a_grid p {
+        color: black;
+        font-weight: 300; }
+      .sec_box .block_down .a_box2 .grid_down img {
+        width: 99%;
+        left: 1.1px;
+        bottom: -97px; }
+    .sec_box .block_down .a_box3 {
+      width: 32%;
+      height: 588px;
+      text-decoration: none;
+      flex-direction: column;
+      margin: 0px auto;
+      padding-top: 12px;
+      background: #FFC400;
+      text-decoration: none; }
+      .sec_box .block_down .a_box3 .grid_up h3 {
+        color: black;
+        font-weight: 300; }
+      .sec_box .block_down .a_box3 .grid_up p {
+        color: black;
+        font-weight: 300; }
+      .sec_box .block_down .a_box3 .grid_up .a_grid p {
+        color: black;
+        font-weight: 300; }
+      .sec_box .block_down .a_box3 .grid_down img {
+        left: -.5px;
+        bottom: -124px; }
 
 /*# sourceMappingURL=text.css.map */
