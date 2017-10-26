@@ -115,6 +115,7 @@ nav {
       padding-top: 12px;
       background: #ffffff;
       text-decoration: none;
+      box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
       .grid_up {
         h3 {
           color: black;
@@ -133,21 +134,20 @@ nav {
       }
       .grid_down {
         img {
-          width: 99%;
-          left: 1.1px;
-          bottom: -97px;
+          width: 100%;
+          bottom: -95px;
         }
       }
     }
     .a_box3 {
       width: 32%;
       height: 588px;
-      text-decoration: none;
       flex-direction: column;
       margin: 0px auto;
       padding-top: 12px;
       background: #FFC400;
       text-decoration: none;
+      box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
       .grid_up {
         h3 {
           color: black;
@@ -166,8 +166,85 @@ nav {
       }
       .grid_down {
         img {
-          left: -.5px;
-          bottom: -124px;
+          bottom: -120px;
+        }
+      }
+    }
+  }
+}
+
+.hih {
+  display: flex;
+  width: 100%;
+  img {
+    width: 40px;
+    height: 40px;
+  }
+  h2 {}
+}
+
+.gr_content {
+  width: 100%;
+  .gr_box {
+    width: 1192px;
+    margin: 0px auto;
+    display: flex;
+    .gr_grid1 {
+      width: 106%;
+      margin: 0px auto;
+      background-color: #212121;
+      display: flex;
+      flex-direction: row;
+      color: white;
+      text-decoration: none;
+      .gr_block {
+        padding: 20px;
+        h3 {}
+        h4 {}
+        p {}
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .gr_frame {
+      display: flex;
+      flex-direction: column;
+      .gr_grid2 {
+        width: 90%;
+        height: 200px;
+        margin: 0px auto;
+        padding: 20px;
+        background-color: #212121;
+        color: white;
+        text-decoration: none;
+        .gr_block {
+          h3 {}
+          h4 {}
+          p {}
+        }
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .gr_grid3 {
+        width: 90%;
+        height: 200px;
+        background-color: #212121;
+        color: white;
+        margin: 0px auto;
+        padding: 20px;
+        text-decoration: none;
+        .gr_block {
+          h3 {}
+          h4 {}
+          p {}
+        }
+        img {
+          width: 100px;
+          height: 100px;
         }
       }
     }
